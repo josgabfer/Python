@@ -1,10 +1,6 @@
 import csv
 import os
 
-def append_range(range):
-    
-
-
 
 def prefix_2_range(ip):
     int_ip = int(ip[-2:])
@@ -20,7 +16,7 @@ def file_reader(file):
                 prefix_2_range(ip)
 
 if __name__ == "__main__":
-    working_dir = 'D:\Python_Pojects\Small_Projects'
+    working_dir = 'D:\Software_Developer\Python\Small_Projects'
     os.chdir(working_dir)
     file = 'csv_prefix.csv'
     file_reader(file)
